@@ -20,7 +20,7 @@ Kamu mampu:
 def think(messages):
 
     response = client.chat.completions.create(
-        model="meta-llama/llama-3-8b-instruct:free",
+        model="google/gemma-7b-it:free",
         messages=messages,
         temperature=0.7,
         max_tokens=1200
